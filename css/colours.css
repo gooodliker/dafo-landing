@@ -1,0 +1,99 @@
+body {
+    color: #222; 
+}
+
+p, body .main_footer, .s_about li {
+    color: #888; 
+}
+
+.bg_light {
+    background-color: #FAFAFA; 
+}
+
+.bg_blue {
+    color: #222;
+    background: #FAFAFA;
+  }
+
+.info h3, .info p{
+    color: #222;
+}
+
+.info_l p{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info_r p{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bg_grey {
+    background-color: #FAFAFA;
+}
+
+.top_mnu a:hover {
+    color: #FEC229; 
+}
+
+.top_mnu a {
+    letter-spacing: 4px; 
+}
+
+.top_text p {
+    color: #FAFAFA;
+    letter-spacing: 5px; 
+}
+
+.s_descr {
+    letter-spacing: 4px; 
+}
+
+.s_descr::after {
+    background-color: #B5B5B5; 
+}
+
+section h3 {
+    letter-spacing: 3px;
+    color: #888; 
+}
+
+.resume_container h3 {
+    color: #222;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.resume_item .resume_description {
+    letter-spacing: 1px; 
+}
+
+.s_order li input[placeholder]{
+    
+}
+
+.s_order li input {
+    border: none;
+    height: 76px;
+    width: 400px;
+    padding-left: 10px;
+    color:#888888;
+}
+
+.s_order li {
+    box-shadow: 0 1px 5px #888888;
+    width: 400px;
+    height: 76px;
+    background: #fff;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+    color: #6c87af;
+    letter-spacing: 2px; 
+}
+

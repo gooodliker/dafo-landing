@@ -1,0 +1,131 @@
+body {
+background-image: url(../img/back404.png);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+}
+
+.coop {
+  margin-top: 30px;
+}
+
+.logo {
+  margin: 5% 0 0 0;
+  width: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 20%;
+
+}
+
+.kot {
+  width: auto;
+  text-align: center;
+  margin: 10% 0 0 0;
+}
+
+.kot img {
+  width: 50%;
+}
+
+.way {
+  margin: 5% 0 0 0;
+  width: auto;
+  text-align: center;
+}
+
+.way img {
+  width: 30%;
+}
+
+.back {
+  margin: 5% 0 10% 0;
+  width: auto;
+  text-align: center;
+}
+
+.back img {
+  width: 10%;
+}
+
+.pulse {
+  width: 10%;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 5);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 5);
+    box-shadow: 0 0 0 0 rgba(255,255,255, 5);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+      box-shadow: 0 0 0 10px rgba(255,255,255, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+      box-shadow: 0 0 0 0 rgba(255,255,255, 0);
+  }
+}
+
+
+#top1, #bottom1, #left1, #right1 {
+	background: white;
+	position: fixed;
+  z-index: 2;
+	}
+
+  #left1, #right1 {
+    top: 0; bottom: 0;
+    width: 20px;
+    }
+    #left1 { left: 0; }
+    #right1 { right: 0; }
+
+  #top1, #bottom1 {
+    left: 0; right: 0;
+    height: 20px;
+    }
+    #top1 { top: 0; }
+    #bottom1 { bottom: 0; }
+
+
+#top, #bottom, #left, #right {
+	background: none;
+	position: fixed;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  opacity: 0.3;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }

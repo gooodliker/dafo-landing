@@ -1,0 +1,363 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 3000px) {
+	.vacancy{
+        min-height: 680px;
+	}
+}
+
+
+
+@media only screen and (max-width : 1440px) {
+	.vacancy{
+        min-height: 500px;
+	}
+	.hide_way{
+		display: none;
+	}
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.hide_way{
+		display: none;
+	}
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.s_contacts .schedule ul{
+        text-align: center;
+		padding-bottom: 15px;
+  }
+	.s_contacts .contactS ul{
+        text-align: center;
+		padding-bottom: 15px;
+	}
+	.logoTOP {
+		margin-bottom: 0;
+		margin-top: 70px;
+	}
+	.logoTOP img {
+		margin-bottom: 0;
+	}
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.resume_container .left, 
+    .section_content .resume_container h3,
+	.resume_container .resume_icon{
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.resume_container .left h3{
+		margin-top: 0;
+	}
+	.s_descr_wrap .s_descr{
+        margin-bottom: 0px;
+	}
+	.section_header h2{
+		font-size: 28px;
+	}
+	.s_descr p{
+		font-size: 16px;
+	}
+	
+	.top_mnu ul, .top_mnu li{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 20px 0; 
+}  
+  .animated1 {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+}
+}
+
+
+
+@media only screen and (max-width : 666px) {
+    .footer_RDR img{
+        width: 220px;
+        margin-right: 3px;
+        padding-top: 13px;
+    }	
+    .social_icons img{
+        width: 35px;
+    }
+    .social_icons ul{
+        margin-right: 30% !important;
+        height: 40px;
+	}
+	
+	.s_order li input {
+		width: 300px;
+	}
+	
+	.s_order li {
+		width: 300px;
+	}
+	.subject select{
+		width: 275px;
+	}
+	.row .send{
+		text-align: center;
+		padding-left: 35px;
+		padding-right: 35px;
+	  }
+	.zachet img {
+		max-width: 310px;
+	}
+}
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_wrapper .top_text h1{
+		font-size: 1em !important;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.main_footer {
+		text-align: left;
+	}
+	.main_footer .social_wrap{
+		float: left;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.main_footer .social_wrap ul{
+		padding-left: 0;
+	}
+	.cycle-l i{
+		margin: 5% 100% 8% 35%;
+        width: 40%;
+    }
+    .cycle-r i{
+        margin: 5% 30% 8% 100% ;
+        width: 40%;
+    }
+	.s_resume p{
+        text-align: center;
+	}
+    .logoTOP {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .social_icons ul{
+        margin-right: 30% !important;
+        height: 40px;
+    }
+    .social_icons ul li {
+        margin: 0 3px 0 3px;
+    }
+
+    .social_icons img{
+        width: 35px;
+    }
+    .map_bottom{
+        padding-top: 20px;
+    }
+	.s_contacts{
+        padding-bottom: 30px !important;
+	}
+	.footer_copy{
+        display: none;
+	}
+	.footer_RDR img{
+        width: 95%;
+        margin:10px 8px 10px 0;
+	}
+	.footer_RDR{
+        width: 100%;
+	}
+}
+
+
+
+@media only screen and (max-width : 414px) {
+	.social_icons ul{
+		margin-right: 28% !important;
+		height: 40px;
+	}
+	.social_icons ul li {
+		margin: 0 3px 0 3px;
+	}
+}
+
+
+
+@media only screen and (max-width : 412px) {
+	.social_icons ul{
+		margin-right: 28% !important;
+		height: 40px;
+	}
+	.social_icons ul li{
+		margin: 0 3px 0 3px;
+	}
+}
+
+
+
+@media only screen and (max-width : 375px) {
+	.social_icons ul{
+		margin-right: 25% !important;
+		height: 40px;
+	}
+	.social_icons ul li {
+		margin: 0 3px 0 3px;
+	}
+}
+
+
+
+@media only screen and (max-width : 360px) {
+	.top_wrapper .top_text h1{
+		font-size: 1em !important;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.main_footer {
+		text-align: left;
+	}
+	.main_footer .social_wrap{
+		float: left;
+		margin-top: 20px;
+		width: 100%;
+	}
+	.main_footer .social_wrap ul{
+		padding-left: 0;
+	}
+	.cycle-l img{
+        margin: 5% 100% 8% 28%;
+        width: 40%;
+    }
+    .cycle-r img{
+        margin: 5% 32% 8% 100% ;
+        width: 40%;
+    }
+    .top_mnu ul, .top_mnu li{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .top_mnu ul{
+        margin-top: 120px;
+    }
+    .top_mnu ul a{
+        font-size: 16px;
+    }
+    .vac_top{
+        margin-top: 0 !important;
+    }
+    .social_icons ul{
+        margin-right: 24% !important;
+        height: 40px;
+    }
+    .social_icons ul{
+        margin: 0 3px 0 3px;
+    }
+}
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .top_mnu ul, .top_mnu li{
+        list-style-type: none;
+        padding: 0;
+        margin: 0; 
+    }
+	.top_mnu ul{
+		margin-top: 120px;
+	}
+	.top_mnu ul a{
+		font-size: 16px;
+	}
+    .subject select{
+        text-align: center;
+    }
+    .social_icons ul{
+        height: 40px;
+    }
+    .social_icons ul li{
+        margin: 0 1px 0 1px;
+    }
+    .logoTOP img{
+        width: 80%;
+    }
+    .footer_RDR img{
+        width: 95%;
+        margin: 8px 8px 10px 0;
+    }
+    .footer_RDR{
+        width: 100%;
+    }
+    .footer_copy{
+        display: none;
+    }
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .cal{
+        margin-bottom: 25px;
+ 	 }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1440px) {
+	.file{
+		width: 100px;
+    }
+    .vacancy h2{
+        font-size: 45px;
+    }
+    .vacancy .vac{
+        font-size: 25px;
+        text-transform: none;
+    }
+}
